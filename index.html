@@ -1,0 +1,109 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>shaolean</title>
+    <link rel="icon" type="image/png" href="anarquista.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body> 
+    <header>
+    <div class="logo">
+        <img src="8911.png" alt="kkk">
+    </div>
+    <div class="search-form">
+        <form action="/pesquisar" method="GET">
+            <div class="search-wrapper">
+                <input type="text" name="q" placeholder="Pesquisar...">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </form>
+    </div>
+</header>
+<div class="picture">
+    <img id="safado" src="admin.jpg" alt="adm" width="225" height="100">
+</div>
+<div class="tigre">
+<img id="tigrin" src="tigrinho.jpg" alt="tigre" width="225" height="100" >
+</div>
+<div class="comercial">
+    <video id="brazino" src="brazino.mp4" controls width="225" height="110" autoplay loop muted></video>
+</div>
+<div class="container">
+    <video id="sorrizo" src="sorrizo.mp4" controls width="750" height="260" muted></video>
+</div>
+<h1>É O SORRIZO RONALDO, ISSO NÃO É LEGAL</h1>
+<div class="container">
+    <video id="dimitri" src="dimitrisx.mp4" controls width="750" height="260" ></video>
+</div>
+<h1>NOVINHO GULOSO MOSTRANDO NOVA DANÇA</h1>
+<div class="container">
+    <video id="testemunho" src="testemunho.mp4" controls width="750" height="260" muted></video>
+</div>
+<h1>FOI PREGAR E ACABOU LEVANDO MADEIRA</h1>
+<div class="container">
+    <video id="pancada" src="pancada.mp4" controls width="750" height="260" muted></video>
+</div>
+<h1>ESCUTA A PANCADA</h1>
+<script>
+    document.querySelector(".search-form").addEventListener("submit", function(event) {
+        var searchTerm = document.querySelector(".search-form input[type='text']").value.toLowerCase();
+        if (searchTerm.trim() === "eliza sanchez") {
+            event.preventDefault();
+            window.location.href = "https://youtu.be/zZIv98WXHH0"; 
+        }
+    });
+
+    document.querySelector(".search-form").addEventListener("submit", function(event) {
+        var searchTerm = document.querySelector(".search-form input[type='text']").value.toLowerCase();
+        if (searchTerm.trim() === "mia khalifa") {
+            event.preventDefault();
+            window.location.href = "https://youtu.be/uo2WTaZ8Xd4?si=559evm-x7wD8PIgM"; 
+        }
+    });
+
+    document.getElementById('brazino').addEventListener('click', function() {
+    window.location.href = 'https://brazino777.com/pt/'; 
+});
+    document.getElementById('safado').addEventListener('click', function() {
+    window.location.href = 'https://wa.me/+558896302207';
+});
+
+    document.getElementById('tigrin').addEventListener('click', function() {
+    window.location.href = 'https://f12.bet/hub/registration/?btag=a_13522b_87c_&utm_medium=cpc&utm_source=google&utm_campaign=search&utm_content=casadeaposta&utm_term=anuncio_texto&gclid=CjwKCAiA_aGuBhACEiwAly57MSeqgmdMbuXtAiQ3HYXcCj_ISPp_rtS1crpDhCFWAyQ1RSqS-Q_xDhoCW6sQAvD_BwE'; 
+});
+</script>
+<footer>
+    <div id="footer_content">
+     <div id="footer_contacts">
+         <h2><img src="8911.png" alt="eu" height="40" width="100"></h2>
+         <p>Acima de nós, só Deus e roda da frente</p>
+         <div id="footer_social_midia">
+         <a href="#" class="redes" id="instagram">
+         <i class="fa-brands fa-instagram"></i>
+         </a>
+         <a href="#" class="redes" id="facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="redes" id="whatsapp">
+                <i class="fa-brands fa-whatsapp"></i>
+                </a>
+         </div>
+     <div id="footer_subscribe">
+         <h3>Se inscreva-se</h3>
+         <p>Digite seu e-mail para ser notificado sobre nossas soluções de notícias</p>
+         <div id="input_group">
+             <input type="email" id="email">
+             <button>
+                <i class="fa-regular fa-envelope"></i>
+             </button>
+         </div>
+     </div>
+    </div>
+    <div id="footer_copyright">
+        &#169
+        shaolean acima de tudo
+    </div>
+</footer>
+</body>
+</html>
